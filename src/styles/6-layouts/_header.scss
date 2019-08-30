@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  padding-bottom: 5px;
+  text-align: right;
+  color: $color-dark-gray;
+  text-transform: uppercase;
+  border-bottom: 2px solid $color-light-gray;
+}
+
+.header__logo {
+  margin-right: auto;
+  width: 60px;
+}
+
+.header__logo img {
+  width: 100%;
+}
+
+.header__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header__name {
+  font-weight: lighter;
+}
+
+.header__title {
+  padding-top: 5px;
+  font-size: 12px;
+}

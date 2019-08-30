@@ -1,0 +1,51 @@
+#work {
+  padding-bottom: 15px;
+}
+
+.work__heading {
+  padding-left: 5px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: $color-light-gray;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project {
+  width: 100%;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+@media (min-width: $breakpoint-sm) {
+  .project {
+    width: 45%;
+  }
+}
+
+@media (min-width: $breakpoint-md) {
+  .project {
+    width: 32%;
+  }
+}
+
+.project__image img {
+  width: 100%;
+  height: 200px;
+}
+
+.project__title {
+  padding: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.project__link {
+  font-size: 10px;
+  color: $color-dark-gray;
+  text-decoration: none;
+}
